@@ -66,8 +66,5 @@
 	"homepage": "https://github.com/SugoiDogo/selflare",
 	"bugs": {
 		"url": "https://github.com/SugoiDogo/selflare/issues"
-	},
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com"
 	}
 }
