@@ -15,12 +15,12 @@ Compile Cloudflare Workers to Cap'n Proto and deliver them as minimalist Docker 
 
 ## Usage
 
-Install the CLI with `npm i -g selflare` and run the following commands in the directory of your worker:
+Install with `npm i @sugoidogo/selflare --save-dev` and run the following commands in the directory of your worker:
 
 ```bash
-selflare compile   # Compile the worker to Cap'n Proto
-selflare docker    # Generate Dockerfile and docker-compose.yml
-docker compose up  # Run the worker
+npx selflare compile   # Compile the worker to Cap'n Proto
+npx selflare docker    # Generate Dockerfile and docker-compose.yml
+docker compose up      # Run the worker
 ```
 
 ## Environment Variables
