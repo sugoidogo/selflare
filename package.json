@@ -10,7 +10,10 @@
 		"docker",
 		"image"
 	],
-	"author": "JacobLinCool <jacoblincool@gmail.com> (https://github.com/JacobLinCool)",
+	"authors": [
+		"JacobLinCool <jacoblincool@gmail.com> (https://github.com/JacobLinCool)",
+		"SugoiDogo <sugoidogo@sugoidogo.com> (https://github.com/SugoiDogo)"
+	],
 	"license": "MIT",
 	"bin": {
 		"selflare": "dist/index.js"
