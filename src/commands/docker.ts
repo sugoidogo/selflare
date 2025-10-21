@@ -17,6 +17,13 @@ export function docker(argv: Arguments<Args>): void {
 
             COPY ${argv.capnp} ./worker.capnp
 
+			VOLUME /worker/cache
+			VOLUME /worker/kv
+			VOLUME /worker/d1
+			VOLUME /worker/r2
+
+			EXPOSE 8080
+
             CMD ["serve", "--experimental", "--binary", "worker.capnp"]
         `,
 		);
